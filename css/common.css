@@ -14,9 +14,9 @@ body {
 }
 
 .gallery-items{
-  display: flexbox;
+  display: flex;
   margin: 10px;
-  width: 350px;
-  height: 250px;
+  width: 50%;
   border-radius: 10px;
 }
+

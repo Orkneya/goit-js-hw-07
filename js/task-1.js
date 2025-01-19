@@ -12,6 +12,11 @@ const h2Elem = liElem.querySelector("h2");
 console.log( "Category : ", h2Elem.textContent);
 console.log("Elements : ", liElemsInside.length); 
 });
+const paragraph=document.getElementById("text");
+
+paragraph.addEventListener("mouseenter", function () { this.style. backgroundColor
+  ="red";
+  });
 
 
   

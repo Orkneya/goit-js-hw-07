@@ -36,10 +36,9 @@ const images = [
 
 const ulGallery = document.querySelector(".gallery");
 
-const imagesLi = images.map(image=> `<li class="gallery-items"><img width = 80% src=${image.url} alt=${image.alt} /></>`).join("");
+const imagesLi = images.map(image=> `<li class="list-item"><img class="gallery-items" src=${image.url} alt=${image.alt} /></>`).join("");
 
-ulGallery.innerHTML = imagesLi;
-
+ulGallery.insertAdjacentHTML("afterbegin", imagesLi);
 console.log(ulGallery);
 
 

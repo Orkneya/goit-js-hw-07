@@ -12,11 +12,12 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+.list-item{
+  list-style: none;
+  margin-bottom: 10px; 
+}
 .gallery-items{
-  display: flex;
-  margin: 10px;
-  width: 50%;
+  width: 80%;
   border-radius: 10px;
 }
 
